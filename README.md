@@ -1,5 +1,5 @@
-# Baby
-# ![](app/src/main/res/mipmap-mdpi/ic_launcher.png)一个恋爱社交APP
+# Emo
+# ![](app/src/main/res/mipmap-mdpi/ic_launcher.png)一个熟人综合类社交APP
 
 Dagger2 MVP Rxjava 入门练手项目。
 
