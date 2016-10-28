@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.2.1'
+//        classpath "io.realm:realm-gradle-plugin:0.89.1"
+    }
+}
+
+
+ext {
+    configuration = [
+            package          : "com.ozj.baby",
+            buildToolsVersion: "23.0.2",
+            compileVersion   : 24,
+            minSdk           : 16,
+            targetSdk        : 22,
+            version_code     : 20160819,
+            version_name     : "1.5",
+    ]
+
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://raw.githubusercontent.com/umeng/mvn-repo-umeng/master/repository" }
+        maven { url "http://dl.bintray.com/tbruyelle/tbruyelle" }
+        maven { url "https://jitpack.io" }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

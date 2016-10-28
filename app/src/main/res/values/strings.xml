@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Baby</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_about">关于</string>
+    <string name="loginOrRegister">登陆/注册</string>
+    <string name="go">确定</string>
+    <string name="loverusername">用户名</string>
+    <string name="next">下一步</string>
+    <string name="passwd">密码</string>
+    <string name="repeatPasswd">重复密码</string>
+    <string name="register">注册</string>
+    <string name="login">登陆</string>
+    <string name="souvenir">恋恋日记</string>
+    <string name="baby_slogan">Baby\n只为更好的懂你</string>
+    <string name="editInfo">编辑个人信息</string>
+    <string name="nick">昵称</string>
+    <string name="city">居住地</string>
+    <string name="sex">性别</string>
+    <string name="tips">另一半的用户名（不是昵称哦）</string>
+    <string name="commit">提交</string>
+    <string name="idea">这一刻的想法...</string>
+    <string name="fetchPic">获取相片</string>
+    <string name="upload">上传</string>
+    <string name="news">通知</string>
+    <string name="aboutbaby">关于Baby</string>
+    <string name="introduce">这个项目的初衷是方便情侣间的交流的，逃离臃肿的微信社交关系，在此更方便的私密的交流让别人无从打扰，想怎么秀就怎么秀，当然也是因为是两个人的私密社交，所以在使用上可能会产生没有另一半就无法使用的困扰，在此衷心祝福你能尽快地找到另一半并愉快地使用Baby,如果你有什么好的建议，可以在反馈的页面提交，此项目是开源的，地址在下面，感谢你的使用。</string>
+    <string name="roger_ou">作者：<u>Roger ou</u></string>
+    <string name="github"><u>https://github.com/rogerou/Baby</u></string>
+    <string name="add_comment">添加评论</string>
+    <string name="cancelreply">取消回复</string>
+
+
+</resources>
